@@ -13,9 +13,10 @@
 }
 
 .newsletter h1 {
-	color: #545454;
-	font-size: 55px;
+	color: black;
+	font-size: 40px;
 	font-weight: 600;
+	margin-top: 50px;
 }
 
 .newsletter p {
@@ -42,4 +43,14 @@
     color: #545454;
 	font-family: Montserrat;
 	font-size: 16px;
+}
+
+.newsletter div button {
+	width: 210px;
+	height: 70px;
+	border-radius: 80px;
+	background: #FFDE59;
+	color: #545454;
+	font-size: 22px;
+	cursor: pointer;
 }
