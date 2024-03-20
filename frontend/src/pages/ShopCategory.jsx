@@ -6,10 +6,10 @@ import all_product from '../components/assets/all_product'
 import Item from '../components/Item/Item'
 
 function ShopCategory(props) {
-  const { all_products } = useContext(ShopContext)
+  const { all_product } = useContext(ShopContext)
   return (
     <div className="shop_category">
-      <img src={props.banner} alt="" />
+      <img className="shopcategory_banner" src={props.banner} alt="" />
       <div className="shopcategory_indexSort">
         <p>
           <span>Showing 1-12</span> out of 36 products
