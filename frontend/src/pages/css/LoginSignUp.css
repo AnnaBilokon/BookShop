@@ -52,3 +52,26 @@ font-size: 18px;
 	font-weight: 500;
 	cursor: pointer;
 }
+
+.login_signUp_login {
+	margin-top: 20px;
+	color:#545454;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.login_signUp_login span {
+	color: black;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.login_signUp_agree {
+	display: flex;
+	align-items: center;
+	margin-top: 25px;
+	gap: 20px;
+	color:#545454;
+	font-size: 18px;
+	font-weight: 500;
+}

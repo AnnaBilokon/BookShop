@@ -1,5 +1,5 @@
 .hero {
-	margin-top: 50px;
+
 	height: 100vh;
 	display: flex;
 	justify-content: space-around;
@@ -52,15 +52,17 @@ font-weight: 600;
 }
 
 .hero_right {
+
 	width: 300px;
 	flex: 1;
 	display: flex;
-	align-items: center;
+	align-items:flex-start;
 	justify-content: center;
-
+	margin-top: 70px;
+	margin-right: 50px;
 }
 
 .hero_right img {
-	width: 480px;
-	height: 580px;
+	width: 490px;
+	height: 540px;
 }
