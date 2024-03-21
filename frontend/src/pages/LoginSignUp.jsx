@@ -14,7 +14,7 @@ function LoginSignUp() {
         <button>Continue</button>
         <p className="login_signUp_login">
           {' '}
-          Already have an account?
+          Already have an account? <span></span>
           <span>Login here</span>
         </p>
         <div className="login_signUp_agree">
