@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import '../pages/css/ShopCategory.css'
 import { ShopContext } from '../context/ShopContext'
 import dropdown_icon from '../components/assets/dropdown_icon.png'
-import all_product from '../components/assets/all_product'
+// import all_product from '../components/assets/all_product'
 import Item from '../components/Item/Item'
 
 function ShopCategory(props) {
@@ -26,6 +26,7 @@ function ShopCategory(props) {
                 key={i}
                 id={item.id}
                 name={item.name}
+                description={item.description}
                 image={item.image}
                 new_price={item.new_price}
                 old_price={item.old_price}

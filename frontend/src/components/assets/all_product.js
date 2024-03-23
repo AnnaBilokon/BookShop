@@ -40,6 +40,7 @@ let all_product = [
     id: 1,
     name: "The Midnight Library",
     category: "literaly_fiction",
+	description:'In The Midnight Library, Matt Haigs enchanting blockbuster novel, Nora Seed finds herself faced with this decision. Faced with the possibility of changing her life for a new one, following a different career, undoing old breakups, realizing her dreams of becoming a glaciologist; she must search within herself as she travels through the Midnight Library to decide what is truly fulfilling in life, and what makes it worth living in the first place.',
     image: p1_img,
     new_price: 50.0,
     old_price: 80.5,

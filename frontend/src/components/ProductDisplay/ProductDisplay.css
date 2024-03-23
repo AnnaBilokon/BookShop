@@ -1,0 +1,20 @@
+.product_display {
+	display: flex;
+	margin: 0px 170px;
+}
+
+.product_display_left {
+	display: flex;
+	gap: 17px;
+}
+
+.product_display_main_img {
+	width: 436px;
+	height: 600px;
+}
+
+.product_display_right {
+margin: 0px 70px;
+display: flex;
+flex-direction: column;
+}

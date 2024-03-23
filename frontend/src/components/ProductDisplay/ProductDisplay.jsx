@@ -8,12 +8,6 @@ const ProductDisplay = (props) => {
   return (
     <div className="product_display">
       <div className="product_display_left">
-        <div className="product_display_img_list">
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-        </div>
         <div className="product_display_img">
           <img
             className="product_display_main_img"
@@ -36,7 +30,14 @@ const ProductDisplay = (props) => {
           <div className="product_display_right_price_old">
             $ {product.old_price}
           </div>
+          <div className="product_display_right_price_new">
+            $ {product.new_price}
+          </div>
         </div>
+        <div className="product_display_right_discription">
+          {product.description}
+        </div>
+        <button>Add To Cart</button>
       </div>
     </div>
   )
