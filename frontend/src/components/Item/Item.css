@@ -7,7 +7,8 @@
 }
 
 .item p{ 
-	margin: 6px 0px;
+	width: 200px;
+	margin: 6px 10px 6px 0;
 }
 
 .item_prices{
