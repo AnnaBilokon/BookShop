@@ -18,3 +18,37 @@ margin: 0px 70px;
 display: flex;
 flex-direction: column;
 }
+
+.product_display_right h1 {
+	color: black;
+	font-size: 40px;
+	font-weight: 700;
+
+}
+
+.product_display_right_stars {
+	display: flex;
+	align-items: center;
+	margin-top: 13px;
+	gap: 5px;
+	color: #1c1c1c;
+	font-size: 16px;
+}
+
+.product_display_right_prices {
+	display: flex;
+	margin: 40px 0;
+	gap: 30px;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.product_display_right_price_old {
+	color: #1c1c1c;
+	text-decoration: line-through;
+}
+
+.product_display_right_price_new {
+	color: #f06258;
+
+}
