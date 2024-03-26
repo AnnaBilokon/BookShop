@@ -9,6 +9,7 @@ import Cart from './pages/Cart';
 import LoginSignUp from './pages/LoginSignUp';
 import banner from './components/assets/banner.png';
 import banner_1 from './components/assets/banner_1.png';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 		<Route path='/login' element={<LoginSignUp/>}/>
 		 
 	  </Routes>
+	  <Footer/>
 	  </BrowserRouter>
     </div>
   );
