@@ -37,6 +37,14 @@ const ProductDisplay = (props) => {
         <div className="product_display_right_discription">
           {product.description}
         </div>
+        <div className="product_display_right_size">
+          <h1>Select cover</h1>
+          <div className="product_display_right_sizes">
+            <div>Hardcover</div>
+            <div>Paperback</div>
+            <div>Pocket book</div>
+          </div>
+        </div>
         <button>Add To Cart</button>
       </div>
     </div>
