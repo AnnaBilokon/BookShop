@@ -45,7 +45,7 @@ const CartItems = () => {
       })}
       <div className="cart_items_down">
         <div className="cart_items_total">
-          <h1>cart Totals</h1>
+          <h1>Totals</h1>
           <div>
             <div className="cart_items_total_item">
               <p>Subtotal</p>
