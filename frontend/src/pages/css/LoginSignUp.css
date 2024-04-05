@@ -3,6 +3,7 @@
 	height: 80hv;
 	background: white;
 	padding-top: 100px;
+	margin-bottom: 100px;
 }
 .login_signUp_conteiner {
 	width: 580px;
@@ -64,6 +65,7 @@ font-size: 18px;
 	color: black;
 	font-weight: 600;
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 .login_signUp_agree {
